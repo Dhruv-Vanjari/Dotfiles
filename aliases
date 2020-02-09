@@ -115,7 +115,7 @@ function cl {
 # find
 alias f='quickfind'
 function quickfind {
-    find . -name "*$1*"
+    find . -iname "*$1*"
 }
 
 # grep

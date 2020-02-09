@@ -209,6 +209,8 @@ Plug 'Chiel92/vim-autoformat'
 let g:formatdef_autopep8 = "yapf"
 let g:formatters_python = ['yapf']
 
+" Golang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Gitgutter
 Plug 'airblade/vim-gitgutter'
