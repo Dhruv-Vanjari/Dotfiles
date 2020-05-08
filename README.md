@@ -331,4 +331,4 @@ General dependencies cover basic software packages, fonts and i3 dependencies.
 - Add GitHub token and sync settings
 
 ## Setting up tmux
-- Run tpm (tmux package manager) install routine
+- Run tpm (tmux package manager) install routine with Prefix+I
