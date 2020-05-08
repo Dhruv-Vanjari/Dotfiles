@@ -71,6 +71,11 @@ source ~/.dockerfunc
 source ~/.inputrc
 source ~/.bindings
 
+if [ -f ~/.extras ]; then
+    source ~/.extras
+fi
+
+
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # End profiling
