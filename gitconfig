@@ -87,3 +87,5 @@
 	tool = meld
 [http]
 [https]
+[pull]
+	rebase = true
